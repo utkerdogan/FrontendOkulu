@@ -1,0 +1,18 @@
+$bgColor: red;
+$x150: 150px;
+$x100: 100px;
+
+@mixin boxMixin{
+
+}
+.container {
+  display: flex;
+  &:hover {
+    background-color: darkgray;
+  }
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: $bgColor;
+}
